@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Visual Pen Test Demo",
+  "version": "1.0",
+  "description": "Authorized pentest visual effects demonstration",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
